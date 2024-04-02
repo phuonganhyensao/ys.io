@@ -1524,7 +1524,6 @@
             #IMAGE336,
             #IMAGE338,
             #IMAGE339,
-            #IMAGE340,
             #IMAGE341,
             #IMAGE343,
             #IMAGE344,
@@ -1532,7 +1531,13 @@
             #IMAGE345,
             #GROUP323,
             #IMAGE347,
-            #PARAGRAPH317 {
+            #IMAGE349,
+            #IMAGE350,
+            #IMAGE351,
+            #IMAGE354,
+            #GROUP341,
+            #GROUP368,
+            #GROUP375 {
                 opacity: 0 !important;
                 pointer-events: none !important;
             }
@@ -1560,7 +1565,6 @@
             #IMAGE336,
             #IMAGE338,
             #IMAGE339,
-            #IMAGE340,
             #IMAGE341,
             #IMAGE343,
             #IMAGE344,
@@ -1568,7 +1572,10 @@
             #IMAGE345,
             #GROUP323,
             #IMAGE347,
-            #PARAGRAPH317 {
+            #IMAGE349,
+            #IMAGE350,
+            #IMAGE351,
+            #IMAGE354 {
                 opacity: 0 !important;
                 pointer-events: none !important;
             }
@@ -1617,6 +1624,7 @@
         #BOX3,
         #IMAGE15,
         #IMAGE63,
+        #GROUP174,
         #SHAPE175,
         #BOX166,
         #SHAPE172,
@@ -1680,15 +1688,12 @@
         #BOX314>.ladi-box:hover,
         #HEADLINE316>.ladi-headline:hover,
         #IMAGE315:hover>.ladi-image,
-        #HEADLINE334>.ladi-headline:hover,
         #BOX316>.ladi-box:hover,
         #HEADLINE318>.ladi-headline:hover,
         #IMAGE317:hover>.ladi-image,
-        #HEADLINE335>.ladi-headline:hover,
         #BOX60>.ladi-box:hover,
         #HEADLINE61>.ladi-headline:hover,
         #IMAGE63:hover>.ladi-image,
-        #HEADLINE340>.ladi-headline:hover,
         #HEADLINE137>.ladi-headline:hover,
         #PARAGRAPH163>.ladi-paragraph:hover,
         #HEADLINE336>.ladi-headline:hover,
@@ -1701,13 +1706,18 @@
         #SHAPE172:hover>.ladi-shape,
         #SHAPE173:hover>.ladi-shape,
         #PARAGRAPH201>.ladi-paragraph:hover,
+        #SHAPE180:hover>.ladi-shape,
+        #BOX320>.ladi-box:hover,
+        #BOX321>.ladi-box:hover,
+        #BOX334>.ladi-box:hover,
+        #BOX335>.ladi-box:hover,
+        #BOX336>.ladi-box:hover,
+        #BOX337>.ladi-box:hover,
         #FRAME199>.ladi-frame:hover,
         #FRAME199>.ladi-frame:hover~.ladi-frame-bg,
-        #PARAGRAPH317>.ladi-paragraph:hover,
         #BUTTON220>.ladi-button:hover,
         #BUTTON_TEXT220>.ladi-headline:hover,
         #FORM_ITEM316>.ladi-survey>.ladi-survey-option.selected,
-        #SHAPE180:hover>.ladi-shape,
         #SHAPE267:hover>.ladi-shape,
         #BOX268>.ladi-box:hover,
         #HEADLINE270>.ladi-headline:hover,
@@ -1873,22 +1883,44 @@
         #BOX24,
         #GROUP42,
         #SHAPE43,
-        #GROUP327,
         #GROUP314,
         #BOX314,
-        #GROUP328,
         #GROUP316,
         #BOX316,
-        #GROUP59,
         #BOX60,
         #IMAGE341>.ladi-image>.ladi-image-background,
         #IMAGE346,
         #SHAPE171,
-        #IMAGE327>.ladi-image>.ladi-image-background,
+        #IMAGE348>.ladi-image>.ladi-image-background,
+        #IMAGE349>.ladi-image>.ladi-image-background,
+        #IMAGE350>.ladi-image>.ladi-image-background,
+        #IMAGE351>.ladi-image>.ladi-image-background,
+        #GROUP347,
+        #GROUP348,
+        #GROUP332,
+        #GROUP329,
+        #BOX320,
+        #HEADLINE341,
+        #HEADLINE344,
+        #GROUP369,
+        #GROUP370,
+        #GROUP371,
+        #GROUP372,
+        #BOX334,
+        #HEADLINE393,
+        #HEADLINE396,
+        #GROUP376,
+        #GROUP377,
+        #GROUP378,
+        #GROUP379,
+        #BOX336,
+        #HEADLINE401,
+        #HEADLINE404,
         #FRAME199,
         #IMAGE335>.ladi-image>.ladi-image-background,
         #FORM_ITEM222,
         #IMAGE347>.ladi-image>.ladi-image-background,
+        #IMAGE354>.ladi-image>.ladi-image-background,
         #SHAPE267,
         #HEADLINE270,
         #SHAPE272,
@@ -1998,7 +2030,8 @@
             animation-iteration-count: 1;
         }
 
-        #IMAGE46.ladi-animation>.ladi-image {
+        #IMAGE46.ladi-animation>.ladi-image,
+        #IMAGE354.ladi-animation>.ladi-image {
             animation-name: fadeIn;
             animation-delay: 1s;
             animation-duration: 1s;
@@ -2006,8 +2039,7 @@
         }
 
         #HEADLINE47.ladi-animation>.ladi-headline,
-        #HEADLINE53.ladi-animation>.ladi-headline,
-        #PARAGRAPH317.ladi-animation>.ladi-paragraph {
+        #HEADLINE53.ladi-animation>.ladi-headline {
             animation-name: flipInX;
             animation-delay: 1s;
             animation-duration: 1s;
@@ -2064,20 +2096,6 @@
             padding: 8px 0px;
         }
 
-        #GROUP325,
-        #GROUP327,
-        #GROUP314,
-        #BOX314,
-        #GROUP326,
-        #GROUP328,
-        #GROUP316,
-        #BOX316,
-        #GROUP324,
-        #GROUP59,
-        #BOX60 {
-            height: 387px;
-        }
-
         #BOX314>.ladi-box,
         #BOX316>.ladi-box,
         #BOX60>.ladi-box {
@@ -2088,10 +2106,6 @@
         #GROUP322 {
             width: 255px;
             height: 41px;
-        }
-
-        #GROUP321 {
-            left: 24.5px;
         }
 
         #HEADLINE316,
@@ -2136,23 +2150,8 @@
             background-image: url("https://w.ladicdn.com/s650x650/660631675fe8b70012719a6f/1-20240401073605-xy8wb.jpg");
         }
 
-        #HEADLINE334>.ladi-headline,
-        #HEADLINE335>.ladi-headline,
-        #HEADLINE340>.ladi-headline {
-            font-weight: bold;
-            line-height: 1.2;
-            color: rgb(255, 145, 77);
-            text-align: center;
-        }
-
-        #GROUP322,
-        #GROUP320 {
-            left: 24px;
-        }
-
-        #IMAGE317>.ladi-image>.ladi-image-background,
-        #IMAGE63>.ladi-image>.ladi-image-background {
-            background-image: url("https://w.ladicdn.com/s650x650/660631675fe8b70012719a6f/14-20240401073624-hysu-.jpg");
+        #IMAGE317>.ladi-image>.ladi-image-background {
+            background-image: url("https://w.ladicdn.com/s650x650/660631675fe8b70012719a6f/14a-20240402101324-aefix.jpg");
         }
 
         #GROUP320 {
@@ -2171,6 +2170,10 @@
         #LINE62 {
             top: 22px;
             left: 0px;
+        }
+
+        #IMAGE63>.ladi-image>.ladi-image-background {
+            background-image: url("https://w.ladicdn.com/s650x650/660631675fe8b70012719a6f/14-20240401073624-hysu-.jpg");
         }
 
         #HEADLINE137>.ladi-headline {
@@ -2277,7 +2280,8 @@
             animation-iteration-count: 1;
         }
 
-        #IMAGE345.ladi-animation>.ladi-image {
+        #IMAGE345.ladi-animation>.ladi-image,
+        #IMAGE350.ladi-animation>.ladi-image {
             animation-name: fadeInLeft;
             animation-delay: 3s;
             animation-duration: 2s;
@@ -2352,6 +2356,157 @@
             color: rgb(0, 128, 55);
         }
 
+        #IMAGE348 {
+            width: 270.288px;
+            height: 243.979px;
+        }
+
+        #IMAGE348>.ladi-image>.ladi-image-background {
+            width: 461.144px;
+            height: 652.98px;
+        }
+
+        #IMAGE348>.ladi-image>.ladi-image-background,
+        #IMAGE352>.ladi-image>.ladi-image-background {
+            background-image: url("https://w.ladicdn.com/s800x1000/660631675fe8b70012719a6f/nen-20240402102327-xlr7y.png");
+        }
+
+        #IMAGE348>.ladi-image,
+        #IMAGE352>.ladi-image {
+            transform: perspective(1000px) rotateY(180deg);
+        }
+
+        #IMAGE349.ladi-animation>.ladi-image {
+            animation-name: fadeInLeft;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+
+        #IMAGE351.ladi-animation>.ladi-image {
+            animation-name: fadeInLeft;
+            animation-delay: 2s;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+
+        #GROUP329,
+        #GROUP372,
+        #GROUP379 {
+            height: 125px;
+        }
+
+        #BOX320,
+        #BOX334,
+        #BOX336 {
+            width: 5px;
+            height: 125px;
+        }
+
+        #BOX320>.ladi-box,
+        #BOX321>.ladi-box,
+        #BOX334>.ladi-box,
+        #BOX335>.ladi-box,
+        #BOX336>.ladi-box,
+        #BOX337>.ladi-box,
+        #IMAGE336>.ladi-image {
+            border-radius: 0px;
+        }
+
+        #BOX320>.ladi-box,
+        #BOX321>.ladi-box,
+        #BOX334>.ladi-box,
+        #BOX335>.ladi-box,
+        #BOX336>.ladi-box,
+        #BOX337>.ladi-box,
+        #BOX318>.ladi-box {
+            background-color: rgb(1, 80, 35);
+        }
+
+        #BOX321,
+        #BOX335,
+        #BOX337 {
+            top: 60px;
+            left: 5px;
+        }
+
+        #GROUP330,
+        #GROUP373,
+        #GROUP380 {
+            top: 0px;
+            left: 9.5px;
+        }
+
+        #HEADLINE341,
+        #HEADLINE344,
+        #HEADLINE393,
+        #HEADLINE396,
+        #HEADLINE401,
+        #HEADLINE404 {
+            width: 200px;
+        }
+
+        #HEADLINE341>.ladi-headline,
+        #HEADLINE343>.ladi-headline,
+        #HEADLINE344>.ladi-headline,
+        #HEADLINE346>.ladi-headline,
+        #HEADLINE393>.ladi-headline,
+        #HEADLINE395>.ladi-headline,
+        #HEADLINE396>.ladi-headline,
+        #HEADLINE398>.ladi-headline,
+        #HEADLINE401>.ladi-headline,
+        #HEADLINE403>.ladi-headline,
+        #HEADLINE404>.ladi-headline,
+        #HEADLINE406>.ladi-headline {
+            line-height: 1.6;
+            color: rgb(1, 80, 35);
+            text-align: left;
+        }
+
+        #HEADLINE342,
+        #HEADLINE345,
+        #HEADLINE394,
+        #HEADLINE397,
+        #HEADLINE402,
+        #HEADLINE405 {
+            width: 117px;
+            top: 29px;
+            left: 0px;
+        }
+
+        #HEADLINE342>.ladi-headline,
+        #HEADLINE345>.ladi-headline,
+        #HEADLINE359>.ladi-headline,
+        #HEADLINE360>.ladi-headline,
+        #HEADLINE394>.ladi-headline,
+        #HEADLINE397>.ladi-headline,
+        #HEADLINE399>.ladi-headline,
+        #HEADLINE400>.ladi-headline,
+        #HEADLINE402>.ladi-headline,
+        #HEADLINE405>.ladi-headline,
+        #HEADLINE407>.ladi-headline,
+        #HEADLINE408>.ladi-headline {
+            font-weight: bold;
+            line-height: 1.6;
+            color: rgb(1, 80, 35);
+            text-align: left;
+        }
+
+        #GROUP331,
+        #GROUP374,
+        #GROUP381 {
+            top: 69px;
+            left: 9.5px;
+        }
+
+        #HEADLINE360,
+        #HEADLINE399,
+        #HEADLINE400,
+        #HEADLINE407,
+        #HEADLINE408 {
+            width: 51px;
+        }
+
         #FRAME199>.ladi-frame {
             border-width: 0px;
             border-radius: 0px;
@@ -2359,14 +2514,16 @@
             border-color: rgba(14, 98, 242, 0.2);
         }
 
-        #IMAGE335,
-        #IMAGE335>.ladi-image>.ladi-image-background {
-            height: 149px;
+        #IMAGE352 {
+            width: 252.288px;
+            height: 204.362px;
         }
 
-        #PARAGRAPH317>.ladi-paragraph {
-            color: rgb(1, 80, 35);
-            text-align: justify;
+        #IMAGE352>.ladi-image>.ladi-image-background {
+            width: 479.069px;
+            height: 678.362px;
+            top: -475px;
+            left: -226px;
         }
 
         #FORM219>.ladi-form {
@@ -2434,6 +2591,10 @@
             border-radius: 10px;
         }
 
+        #BUTTON_TEXT220 {
+            width: 334px;
+        }
+
         #BUTTON_TEXT220>.ladi-headline {
             font-size: 14px;
             font-weight: bold;
@@ -2468,15 +2629,8 @@
             height: 60px;
         }
 
-        #IMAGE340.ladi-animation>.ladi-image {
-            animation-name: rotateIn;
-            animation-delay: 3s;
-            animation-duration: 4s;
-            animation-iteration-count: 1;
-        }
-
         #IMAGE347>.ladi-image {
-            filter: brightness(113%);
+            filter: brightness(119%);
         }
 
         #IMAGE347.ladi-animation>.ladi-image,
@@ -2632,10 +2786,6 @@
             background-color: rgb(234, 242, 254);
         }
 
-        #BOX318>.ladi-box {
-            background-color: rgb(1, 80, 35);
-        }
-
         #IMAGE337>.ladi-image>.ladi-overlay {
             background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(1, 80, 35));
             background-color: initial;
@@ -2668,10 +2818,6 @@
             width: 1079.46px;
             height: 539.73px;
             background-image: url("https://w.ladicdn.com/s1400x850/660631675fe8b70012719a6f/yen-bay-20240330040830-mu1cb.png");
-        }
-
-        #IMAGE336>.ladi-image {
-            border-radius: 0px;
         }
 
         #IMAGE336.ladi-animation>.ladi-image {
@@ -2740,10 +2886,7 @@
                 top: 81.788px;
             }
 
-            #BUTTON_TEXT8>.ladi-headline,
-            #HEADLINE334>.ladi-headline,
-            #HEADLINE335>.ladi-headline,
-            #HEADLINE340>.ladi-headline {
+            #BUTTON_TEXT8>.ladi-headline {
                 font-size: 19px;
             }
 
@@ -2800,7 +2943,6 @@
             #IMAGE342>.ladi-image>.ladi-image-background,
             #IMAGE343>.ladi-image>.ladi-image-background,
             #IMAGE345>.ladi-image>.ladi-image-background,
-            #IMAGE340>.ladi-image>.ladi-image-background,
             #IMAGE338>.ladi-image>.ladi-image-background {
                 top: 0px;
                 left: 0px;
@@ -3020,7 +3162,7 @@
             }
 
             #SECTION52 {
-                height: 623px;
+                height: 600px;
             }
 
             #HEADLINE53 {
@@ -3042,17 +3184,12 @@
             }
 
             #GROUP325,
-            #GROUP327,
             #GROUP314,
             #BOX314,
-            #GROUP326,
-            #GROUP328,
-            #GROUP316,
             #BOX316,
-            #GROUP324,
-            #GROUP59,
             #BOX60 {
                 width: 303px;
+                height: 364px;
             }
 
             #GROUP325 {
@@ -3060,9 +3197,9 @@
                 left: 328.5px;
             }
 
-            #GROUP321,
-            #GROUP320 {
+            #GROUP321 {
                 top: 311px;
+                left: 24.5px;
             }
 
             #IMAGE315,
@@ -3081,12 +3218,10 @@
                 left: 0px;
             }
 
-            #HEADLINE334,
-            #HEADLINE335,
-            #HEADLINE340 {
-                width: 247px;
-                top: 353.3px;
-                left: 28px;
+            #GROUP326,
+            #GROUP316 {
+                width: 303px;
+                height: 387px;
             }
 
             #GROUP326 {
@@ -3096,11 +3231,19 @@
 
             #GROUP322 {
                 top: 310px;
+                left: 24px;
             }
 
-            #GROUP324 {
+            #GROUP59 {
+                width: 303px;
+                height: 366px;
                 top: 208.75px;
                 left: 3px;
+            }
+
+            #GROUP320 {
+                top: 311px;
+                left: 24px;
             }
 
             #IMAGE63 {
@@ -3259,10 +3402,9 @@
             }
 
             #GROUP174 {
-                width: 833.966px;
-                height: 786.824px;
-                top: 25.776px;
-                left: 44.2665px;
+                width: 983.733px;
+                height: 779.6px;
+                left: -23.7335px;
             }
 
             #SHAPE175,
@@ -3272,11 +3414,11 @@
             }
 
             #SHAPE175 {
-                left: 685.499px;
+                left: 835.266px;
             }
 
             #SHAPE176 {
-                top: 638.56px;
+                top: 631.336px;
             }
 
             #GROUP165 {
@@ -3334,21 +3476,6 @@
                 left: 198.322px;
             }
 
-            #IMAGE327,
-            #IMAGE327>.ladi-image>.ladi-image-background {
-                width: 467.6px;
-                height: 468.426px;
-            }
-
-            #IMAGE327 {
-                top: 50.5px;
-                left: 467.433px;
-            }
-
-            #IMAGE327>.ladi-image>.ladi-image-background {
-                background-image: url("https://w.ladicdn.com/s800x800/660631675fe8b70012719a6f/template-trang-tri-20240401075725-ahbcs.jpg");
-            }
-
             #PARAGRAPH201 {
                 width: 278px;
                 top: 50.5px;
@@ -3361,25 +3488,211 @@
                 font-size: 25px;
             }
 
+            #SHAPE180 {
+                width: 29px;
+                height: 29px;
+                top: 25.776px;
+                left: 293.266px;
+            }
+
+            #IMAGE348 {
+                top: 91.5px;
+                left: 689.711px;
+            }
+
+            #IMAGE349,
+            #IMAGE349>.ladi-image>.ladi-image-background,
+            #IMAGE350,
+            #IMAGE350>.ladi-image>.ladi-image-background,
+            #IMAGE351,
+            #IMAGE351>.ladi-image>.ladi-image-background {
+                width: 200px;
+                height: 200px;
+            }
+
+            #IMAGE349 {
+                top: 122.004px;
+                left: 361.133px;
+            }
+
+            #IMAGE349>.ladi-image>.ladi-image-background {
+                background-image: url("https://w.ladicdn.com/s550x550/660631675fe8b70012719a6f/yen-tho-20240402102153-vmhrj.png");
+            }
+
+            #IMAGE350 {
+                top: 522.004px;
+                left: 361.133px;
+            }
+
+            #IMAGE350>.ladi-image>.ladi-image-background {
+                background-image: url("https://w.ladicdn.com/s550x550/660631675fe8b70012719a6f/chan-yen-20240402102151-imtgo.png");
+            }
+
+            #IMAGE351 {
+                top: 322.004px;
+                left: 361.133px;
+            }
+
+            #IMAGE351>.ladi-image>.ladi-image-background {
+                background-image: url("https://w.ladicdn.com/s550x550/660631675fe8b70012719a6f/yen-tinh-20240402102154-hvnha.png");
+            }
+
+            #GROUP341,
+            #GROUP347,
+            #GROUP348,
+            #GROUP332,
+            #GROUP368,
+            #GROUP369,
+            #GROUP370,
+            #GROUP371,
+            #GROUP375,
+            #GROUP376,
+            #GROUP377,
+            #GROUP378 {
+                width: 417.5px;
+                height: 132px;
+            }
+
+            #GROUP341 {
+                top: 159.504px;
+                left: 540.5px;
+            }
+
+            #GROUP341.ladi-animation>.ladi-group,
+            #GROUP368.ladi-animation>.ladi-group,
+            #GROUP375.ladi-animation>.ladi-group {
+                animation-name: flipInX;
+                animation-delay: 1s;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+            }
+
+            #GROUP329,
+            #GROUP372,
+            #GROUP379 {
+                width: 235px;
+            }
+
+            #BOX321,
+            #BOX335,
+            #BOX337 {
+                width: 400px;
+                height: 5.55556px;
+            }
+
+            #GROUP330,
+            #GROUP373,
+            #GROUP380 {
+                width: 324px;
+                height: 63px;
+            }
+
+            #HEADLINE341>.ladi-headline,
+            #HEADLINE343>.ladi-headline,
+            #HEADLINE344>.ladi-headline,
+            #HEADLINE346>.ladi-headline,
+            #HEADLINE359>.ladi-headline,
+            #HEADLINE360>.ladi-headline,
+            #HEADLINE393>.ladi-headline,
+            #HEADLINE395>.ladi-headline,
+            #HEADLINE396>.ladi-headline,
+            #HEADLINE398>.ladi-headline,
+            #HEADLINE399>.ladi-headline,
+            #HEADLINE400>.ladi-headline,
+            #HEADLINE401>.ladi-headline,
+            #HEADLINE403>.ladi-headline,
+            #HEADLINE404>.ladi-headline,
+            #HEADLINE406>.ladi-headline,
+            #HEADLINE407>.ladi-headline,
+            #HEADLINE408>.ladi-headline {
+                font-size: 17px;
+            }
+
+            #HEADLINE342>.ladi-headline,
+            #HEADLINE345>.ladi-headline,
+            #HEADLINE394>.ladi-headline,
+            #HEADLINE397>.ladi-headline,
+            #HEADLINE402>.ladi-headline,
+            #HEADLINE405>.ladi-headline {
+                font-size: 21px;
+            }
+
+            #HEADLINE343,
+            #HEADLINE395,
+            #HEADLINE403 {
+                width: 200px;
+            }
+
+            #HEADLINE343,
+            #HEADLINE346,
+            #HEADLINE395,
+            #HEADLINE398,
+            #HEADLINE403,
+            #HEADLINE406 {
+                top: 32.5px;
+                left: 124px;
+            }
+
+            #GROUP331,
+            #GROUP374,
+            #GROUP381 {
+                width: 408px;
+                height: 63px;
+            }
+
+            #HEADLINE346,
+            #HEADLINE398,
+            #HEADLINE406 {
+                width: 284px;
+            }
+
+            #HEADLINE359 {
+                width: 50px;
+            }
+
+            #HEADLINE359,
+            #HEADLINE399,
+            #HEADLINE407 {
+                top: 103px;
+                left: 71.793px;
+            }
+
+            #HEADLINE360,
+            #HEADLINE400,
+            #HEADLINE408 {
+                top: 33.499px;
+                left: 70.793px;
+            }
+
+            #GROUP368 {
+                top: 356.004px;
+                left: 540.5px;
+            }
+
+            #GROUP375 {
+                top: 556.004px;
+                left: 540.5px;
+            }
+
             #GROUP198,
             #FRAME199 {
                 width: 360px;
-                height: 613.001px;
+                height: 525.001px;
             }
 
             #GROUP198 {
-                top: 109.003px;
+                top: 197.003px;
                 left: 22.322px;
             }
 
             #IMAGE335,
-            #IMAGE335>.ladi-image>.ladi-image-background,
-            #PARAGRAPH317 {
+            #IMAGE335>.ladi-image>.ladi-image-background {
                 width: 311px;
+                height: 149px;
             }
 
             #IMAGE335 {
-                top: 450.997px;
+                top: 341.997px;
                 left: 24.5px;
             }
 
@@ -3387,21 +3700,16 @@
                 background-image: url("https://w.ladicdn.com/s650x450/660631675fe8b70012719a6f/banner-world-environment-day-templates-20240329071021-7fjgq.jpg");
             }
 
-            #PARAGRAPH317 {
-                top: 18.147px;
-                left: 24.5px;
-            }
-
-            #PARAGRAPH317>.ladi-paragraph {
-                font-size: 13px;
-                line-height: 1.2;
+            #IMAGE352 {
+                top: 321.639px;
+                left: -1px;
             }
 
             #FORM219 {
                 width: 312.105px;
                 height: 281px;
-                top: 156.797px;
-                left: 22.9473px;
+                top: 27.797px;
+                left: 23.9476px;
             }
 
             #BUTTON220,
@@ -3419,7 +3727,6 @@
             }
 
             #BUTTON_TEXT220 {
-                width: 312px;
                 top: 9px;
             }
 
@@ -3441,56 +3748,47 @@
                 top: 195px;
             }
 
-            #SHAPE180 {
-                width: 29px;
-                height: 29px;
-                top: 25.776px;
-                left: 293.266px;
-            }
-
-            #IMAGE340,
-            #IMAGE340>.ladi-image>.ladi-image-background {
-                width: 246.811px;
-                height: 164.981px;
-            }
-
-            #IMAGE340 {
-                top: 657.619px;
-                left: 768.829px;
-            }
-
-            #IMAGE340>.ladi-image>.ladi-image-background {
-                background-image: url("https://w.ladicdn.com/s550x500/660631675fe8b70012719a6f/kisspng-edible-birds-nest-chinese-herbology-adaptogen-icon-bird-s-nest-5a7fec6cb767c23063485615183330367512-20240330043944-yaava.png");
-            }
-
-            #IMAGE325 {
-                width: 328.519px;
-                height: 285.554px;
-                top: 475.926px;
-                left: 647.74px;
-            }
-
-            #IMAGE325>.ladi-image>.ladi-image-background {
-                width: 1205.15px;
-                height: 602.575px;
-                top: -272.361px;
-                left: -244.905px;
-                background-image: url("https://w.ladicdn.com/s1550x950/660631675fe8b70012719a6f/yen-bay-20240330040830-mu1cb.png");
-            }
-
             #IMAGE347,
             #IMAGE347>.ladi-image>.ladi-image-background {
-                width: 377.232px;
-                height: 225.617px;
+                width: 312.886px;
+                height: 187.132px;
             }
 
             #IMAGE347 {
-                top: 693.004px;
-                left: 0px;
+                top: 671.004px;
+                left: 45.879px;
             }
 
             #IMAGE347>.ladi-image>.ladi-image-background {
-                background-image: url("https://w.ladicdn.com/s700x550/660631675fe8b70012719a6f/kisspng-edible-birds-nest-swallow-tonic-bird-s-nest-5a8c4586d35a051408106015191422788657-20240401124924-rxmcc.png");
+                background-image: url("https://w.ladicdn.com/s650x500/660631675fe8b70012719a6f/kisspng-edible-birds-nest-swallow-tonic-bird-s-nest-5a8c4586d35a051408106015191422788657-20240401124924-rxmcc.png");
+            }
+
+            #IMAGE354 {
+                width: 446.376px;
+                height: 338.613px;
+                top: 665.344px;
+                left: -187.376px;
+            }
+
+            #IMAGE354>.ladi-image>.ladi-image-background {
+                width: 601.376px;
+                height: 338.613px;
+                background-image: url("https://w.ladicdn.com/s950x650/660631675fe8b70012719a6f/yen-chung-tuoi-20240402104255-oimma.png");
+            }
+
+            #IMAGE325 {
+                width: 265.501px;
+                height: 230.778px;
+                top: 15.957px;
+                left: 218.571px;
+            }
+
+            #IMAGE325>.ladi-image>.ladi-image-background {
+                width: 973.973px;
+                height: 486.987px;
+                top: -220.116px;
+                left: -197.926px;
+                background-image: url("https://w.ladicdn.com/s1300x800/660631675fe8b70012719a6f/yen-bay-20240330040830-mu1cb.png");
             }
 
             #SECTION265 {
@@ -3715,6 +4013,12 @@
             #PARAGRAPH41>.ladi-paragraph,
             #PARAGRAPH314>.ladi-paragraph,
             #PARAGRAPH54>.ladi-paragraph,
+            #HEADLINE343>.ladi-headline,
+            #HEADLINE346>.ladi-headline,
+            #HEADLINE395>.ladi-headline,
+            #HEADLINE398>.ladi-headline,
+            #HEADLINE403>.ladi-headline,
+            #HEADLINE406>.ladi-headline,
             #HEADLINE273>.ladi-headline,
             #HEADLINE276>.ladi-headline,
             #HEADLINE279>.ladi-headline {
@@ -3725,7 +4029,19 @@
                 top: 68.788px;
             }
 
-            #BUTTON_TEXT8>.ladi-headline {
+            #BUTTON_TEXT8>.ladi-headline,
+            #HEADLINE341>.ladi-headline,
+            #HEADLINE344>.ladi-headline,
+            #HEADLINE359>.ladi-headline,
+            #HEADLINE360>.ladi-headline,
+            #HEADLINE393>.ladi-headline,
+            #HEADLINE396>.ladi-headline,
+            #HEADLINE399>.ladi-headline,
+            #HEADLINE400>.ladi-headline,
+            #HEADLINE401>.ladi-headline,
+            #HEADLINE404>.ladi-headline,
+            #HEADLINE407>.ladi-headline,
+            #HEADLINE408>.ladi-headline {
                 font-size: 14px;
             }
 
@@ -3970,14 +4286,9 @@
             #IMAGE46>.ladi-image>.ladi-image-background {
                 width: 420px;
                 height: 280px;
-                background-image: url("https://w.ladicdn.com/s750x600/660631675fe8b70012719a6f/binh-phuoc-20240330031832-k5d-h.jpg");
-            }
-
-            #IMAGE46>.ladi-image>.ladi-image-background,
-            #IMAGE327,
-            #IMAGE335 {
                 top: 0px;
                 left: 0px;
+                background-image: url("https://w.ladicdn.com/s750x600/660631675fe8b70012719a6f/binh-phuoc-20240330031832-k5d-h.jpg");
             }
 
             #HEADLINE47,
@@ -4002,7 +4313,7 @@
             }
 
             #SECTION52 {
-                height: 1467px;
+                height: 1408px;
             }
 
             #HEADLINE53,
@@ -4028,16 +4339,15 @@
             }
 
             #GROUP325,
-            #GROUP327,
             #GROUP314,
             #GROUP326,
-            #GROUP328,
             #GROUP316 {
                 width: 306px;
+                height: 375px;
             }
 
             #GROUP325 {
-                top: 627px;
+                top: 603px;
                 left: 57px;
             }
 
@@ -4045,12 +4355,12 @@
             #BOX316,
             #BOX60 {
                 width: 305px;
+                height: 375px;
             }
 
-            #GROUP321,
-            #GROUP322,
-            #GROUP320 {
-                top: 315px;
+            #GROUP321 {
+                top: 326px;
+                left: 25.5px;
             }
 
             #IMAGE315,
@@ -4067,22 +4377,14 @@
                 left: -8px;
             }
 
-            #HEADLINE334 {
-                width: 239px;
-                top: 355px;
-                left: 34.25px;
-            }
-
-            #HEADLINE334>.ladi-headline,
-            #HEADLINE335>.ladi-headline,
-            #HEADLINE340>.ladi-headline,
-            #HEADLINE270>.ladi-headline {
-                font-size: 18px;
-            }
-
             #GROUP326 {
-                top: 1054px;
+                top: 1009px;
                 left: 57px;
+            }
+
+            #GROUP322 {
+                top: 325px;
+                left: 26px;
             }
 
             #IMAGE317>.ladi-image>.ladi-image-background {
@@ -4092,20 +4394,16 @@
                 left: -5px;
             }
 
-            #HEADLINE335 {
-                width: 206px;
-                top: 355px;
-                left: 50px;
-            }
-
-            #GROUP324,
             #GROUP59 {
                 width: 305.396px;
-            }
-
-            #GROUP324 {
+                height: 375px;
                 top: 200px;
                 left: 57px;
+            }
+
+            #GROUP320 {
+                top: 326px;
+                left: 25px;
             }
 
             #IMAGE63 {
@@ -4117,12 +4415,6 @@
                 height: 320px;
                 top: -3px;
                 left: -10px;
-            }
-
-            #HEADLINE340 {
-                width: 235px;
-                top: 352px;
-                left: 35.5px;
             }
 
             #SECTION136 {
@@ -4269,20 +4561,19 @@
             }
 
             #SECTION164 {
-                height: 1240.26px;
+                height: 1273.49px;
             }
 
             #BOX181 {
                 width: 395.233px;
-                height: 514px;
-                top: 594.596px;
-                left: 24.767px;
+                height: 335.995px;
+                top: 791.246px;
+                left: 24.769px;
             }
 
             #GROUP174 {
                 width: 420px;
                 height: 145.542px;
-                top: 420px;
                 left: 0px;
             }
 
@@ -4301,8 +4592,8 @@
             #GROUP165 {
                 width: 463.142px;
                 height: 627px;
-                top: 481.596px;
-                left: -43.432px;
+                top: 500.241px;
+                left: -43.142px;
             }
 
             #BOX166 {
@@ -4353,20 +4644,163 @@
                 left: 438.566px;
             }
 
-            #IMAGE327,
-            #IMAGE327>.ladi-image>.ladi-image-background {
-                width: 420px;
-                height: 420px;
-            }
-
-            #IMAGE327>.ladi-image>.ladi-image-background {
-                background-image: url("https://w.ladicdn.com/s750x750/660631675fe8b70012719a6f/template-trang-tri-20240401075725-ahbcs.jpg");
-            }
-
             #PARAGRAPH201 {
                 width: 247px;
-                top: 439.599px;
+                top: 9.13px;
                 left: 10.9385px;
+            }
+
+            #SHAPE180 {
+                width: 59.9177px;
+                height: 59.9179px;
+                top: 1227.33px;
+                left: 315.63px;
+                display: none !important;
+            }
+
+            #IMAGE348 {
+                top: 500.267px;
+                left: 148.856px;
+            }
+
+            #IMAGE349,
+            #IMAGE349>.ladi-image>.ladi-image-background,
+            #IMAGE350,
+            #IMAGE350>.ladi-image>.ladi-image-background {
+                width: 145px;
+                height: 145px;
+            }
+
+            #IMAGE349 {
+                top: 40.13px;
+                left: -21.006px;
+            }
+
+            #IMAGE349>.ladi-image>.ladi-image-background {
+                background-image: url("https://w.ladicdn.com/s450x450/660631675fe8b70012719a6f/yen-tho-20240402102153-vmhrj.png");
+            }
+
+            #IMAGE350 {
+                top: 349.241px;
+                left: -21.006px;
+            }
+
+            #IMAGE350>.ladi-image>.ladi-image-background {
+                background-image: url("https://w.ladicdn.com/s450x450/660631675fe8b70012719a6f/chan-yen-20240402102151-imtgo.png");
+            }
+
+            #IMAGE351 {
+                width: 121px;
+                height: 121px;
+                top: 204.355px;
+                left: -11.506px;
+            }
+
+            #IMAGE351>.ladi-image>.ladi-image-background {
+                width: 126.842px;
+                height: 126.842px;
+                background-image: url("https://w.ladicdn.com/s450x450/660631675fe8b70012719a6f/yen-tinh-20240402102154-hvnha.png");
+            }
+
+            #GROUP341,
+            #GROUP347,
+            #GROUP348,
+            #GROUP332,
+            #GROUP368,
+            #GROUP369,
+            #GROUP370,
+            #GROUP371,
+            #GROUP375,
+            #GROUP376,
+            #GROUP377,
+            #GROUP378 {
+                width: 317.5px;
+                height: 125px;
+            }
+
+            #GROUP341 {
+                top: 50.13px;
+                left: 102.868px;
+            }
+
+            #GROUP329,
+            #GROUP372,
+            #GROUP379 {
+                width: 315px;
+            }
+
+            #BOX321,
+            #BOX335,
+            #BOX337 {
+                width: 310px;
+                height: 5px;
+            }
+
+            #GROUP330,
+            #GROUP373,
+            #GROUP380 {
+                width: 259px;
+                height: 56px;
+            }
+
+            #HEADLINE342>.ladi-headline,
+            #HEADLINE345>.ladi-headline,
+            #HEADLINE394>.ladi-headline,
+            #HEADLINE397>.ladi-headline,
+            #HEADLINE402>.ladi-headline,
+            #HEADLINE405>.ladi-headline {
+                font-size: 17px;
+            }
+
+            #HEADLINE343,
+            #HEADLINE395,
+            #HEADLINE403 {
+                width: 170px;
+                top: 33px;
+                left: 89px;
+            }
+
+            #GROUP331,
+            #GROUP374,
+            #GROUP381 {
+                width: 308px;
+                height: 56px;
+            }
+
+            #HEADLINE346,
+            #HEADLINE398,
+            #HEADLINE406 {
+                width: 218px;
+                top: 33.5px;
+                left: 90px;
+            }
+
+            #HEADLINE359 {
+                width: 51px;
+            }
+
+            #HEADLINE359,
+            #HEADLINE399,
+            #HEADLINE407 {
+                top: 102px;
+                left: 60.793px;
+            }
+
+            #HEADLINE360,
+            #HEADLINE400,
+            #HEADLINE408 {
+                top: 32.499px;
+                left: 60.793px;
+            }
+
+            #GROUP368 {
+                top: 204.355px;
+                left: 102.868px;
+            }
+
+            #GROUP375 {
+                top: 359.241px;
+                left: 102.868px;
             }
 
             #GROUP198,
@@ -4376,34 +4810,28 @@
             }
 
             #GROUP198 {
-                top: 520.71px;
-                left: 35.9385px;
+                top: 539.355px;
+                left: 36.2285px;
             }
 
             #IMAGE335,
             #IMAGE335>.ladi-image>.ladi-image-background {
-                width: 298px;
+                width: 334px;
+                height: 165.504px;
             }
 
-            #IMAGE335,
-            #SHAPE180 {
-                display: none !important;
+            #IMAGE335 {
+                top: 20px;
+                left: 20.5615px;
             }
 
             #IMAGE335>.ladi-image>.ladi-image-background {
-                background-image: url("https://w.ladicdn.com/s600x450/660631675fe8b70012719a6f/banner-world-environment-day-templates-20240329071021-7fjgq.jpg");
+                background-image: url("https://w.ladicdn.com/s650x500/660631675fe8b70012719a6f/banner-world-environment-day-templates-20240329071021-7fjgq.jpg");
             }
 
-            #PARAGRAPH317 {
-                width: 340px;
-                top: 17px;
-                left: 17.5615px;
-            }
-
-            #PARAGRAPH317>.ladi-paragraph,
-            #HEADLINE330>.ladi-headline {
-                font-size: 14px;
-                line-height: 1.6;
+            #IMAGE352 {
+                top: 353.76px;
+                left: -2px;
             }
 
             #FORM219 {
@@ -4414,7 +4842,6 @@
             }
 
             #BUTTON220,
-            #FORM_ITEM222,
             #FORM_ITEM223,
             #FORM_ITEM224,
             #FORM_ITEM315 {
@@ -4428,8 +4855,12 @@
             }
 
             #BUTTON_TEXT220 {
-                width: 334px;
                 top: 10.5px;
+            }
+
+            #FORM_ITEM222 {
+                width: 334px;
+                height: 46.6663px;
             }
 
             #FORM_ITEM223 {
@@ -4450,33 +4881,39 @@
                 top: 227.5px;
             }
 
-            #SHAPE180 {
-                width: 59.9177px;
-                height: 59.9179px;
-                top: 1108.6px;
-                left: 360.082px;
+            #IMAGE347,
+            #IMAGE347>.ladi-image>.ladi-image-background {
+                width: 161.528px;
+                height: 96.608px;
             }
 
-            #IMAGE340 {
-                width: 133.387px;
-                height: 124.981px;
-                top: 420px;
-                left: 251.594px;
+            #IMAGE347 {
+                top: 1140.15px;
+                left: 45.313px;
             }
 
-            #IMAGE340>.ladi-image>.ladi-image-background {
-                width: 220.387px;
-                height: 145.981px;
-                top: -19px;
-                left: -42px;
-                background-image: url("https://w.ladicdn.com/s550x450/660631675fe8b70012719a6f/kisspng-edible-birds-nest-chinese-herbology-adaptogen-icon-bird-s-nest-5a7fec6cb767c23063485615183330367512-20240330043944-yaava.png");
+            #IMAGE347>.ladi-image>.ladi-image-background {
+                background-image: url("https://w.ladicdn.com/s500x400/660631675fe8b70012719a6f/kisspng-edible-birds-nest-swallow-tonic-bird-s-nest-5a8c4586d35a051408106015191422788657-20240401124924-rxmcc.png");
+            }
+
+            #IMAGE354 {
+                width: 267.021px;
+                height: 175.773px;
+                top: 1100.57px;
+                left: -107.165px;
+            }
+
+            #IMAGE354>.ladi-image>.ladi-image-background {
+                width: 359.742px;
+                height: 202.558px;
+                background-image: url("https://w.ladicdn.com/s700x550/660631675fe8b70012719a6f/yen-chung-tuoi-20240402104255-oimma.png");
             }
 
             #IMAGE325 {
                 width: 198.748px;
                 height: 180.13px;
-                top: 1060.13px;
-                left: 221.252px;
+                top: 1076.63px;
+                left: 220.396px;
             }
 
             #IMAGE325>.ladi-image>.ladi-image-background {
@@ -4484,21 +4921,6 @@
                 height: 402.216px;
                 top: -183.863px;
                 left: -169.463px;
-            }
-
-            #IMAGE347,
-            #IMAGE347>.ladi-image>.ladi-image-background {
-                width: 250.146px;
-                height: 149.609px;
-            }
-
-            #IMAGE347 {
-                top: 1067.6px;
-                left: 5.9995px;
-            }
-
-            #IMAGE347>.ladi-image>.ladi-image-background {
-                background-image: url("https://w.ladicdn.com/s600x450/660631675fe8b70012719a6f/kisspng-edible-birds-nest-swallow-tonic-bird-s-nest-5a8c4586d35a051408106015191422788657-20240401124924-rxmcc.png");
             }
 
             #SECTION265 {
@@ -4531,6 +4953,10 @@
 
             #HEADLINE270 {
                 width: 253px;
+            }
+
+            #HEADLINE270>.ladi-headline {
+                font-size: 18px;
             }
 
             #GROUP271 {
@@ -4615,6 +5041,11 @@
                 width: 320px;
                 top: 424.5px;
                 left: 26.0405px;
+            }
+
+            #HEADLINE330>.ladi-headline {
+                font-size: 14px;
+                line-height: 1.6;
             }
 
             #HEADLINE331 {
@@ -4705,12 +5136,12 @@
 
 <body class="lazyload"><svg xmlns="http://www.w3.org/2000/svg"
         style="width: 0px; height: 0px; position: absolute; overflow: hidden; display: none;">
-        <symbol id="shape_UfMRgpyHiM" viewBox="0 0 218 218">
+        <symbol id="shape_DORttlhmIX" viewBox="0 0 218 218">
             <path
                 d="M109,0A109,109,0,1,0,218,109,109,109,0,0,0,109,0Zm0,178.66A69.66,69.66,0,1,1,178.66,109,69.66,69.66,0,0,1,109,178.66Z">
             </path>
         </symbol>
-        <symbol id="shape_nOZEoePxQB" viewBox="0 0 150.2 150">
+        <symbol id="shape_VxzbMkVVBo" viewBox="0 0 150.2 150">
             <rect width="4.7" height="4.54" rx="2.2" ry="2.2"></rect>
             <rect y="24.2" width="4.7" height="4.54" rx="2.2" ry="2.2"></rect>
             <rect y="48.5" width="4.7" height="4.54" rx="2.2" ry="2.2"></rect>
@@ -4972,7 +5403,7 @@
                     <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg" width="100%"
                             height="100%" preserveAspectRatio="none" viewBox="0 0 218 218"
                             fill="rgba(211, 211, 211, 0.3)">
-                            <use xlink:href="#shape_UfMRgpyHiM"></use>
+                            <use xlink:href="#shape_DORttlhmIX"></use>
                         </svg></div>
                 </div>
                 <div id="GROUP317" class='ladi-element'>
@@ -5111,35 +5542,27 @@
                 </div>
                 <div id="GROUP325" class='ladi-element'>
                     <div class='ladi-group'>
-                        <div id="GROUP327" class='ladi-element'>
+                        <div id="GROUP314" class='ladi-element'>
                             <div class='ladi-group'>
-                                <div id="GROUP314" class='ladi-element'>
+                                <div id="BOX314" class='ladi-element'>
+                                    <div class='ladi-box ladi-transition'></div>
+                                </div>
+                                <div id="GROUP321" class='ladi-element'>
                                     <div class='ladi-group'>
-                                        <div id="BOX314" class='ladi-element'>
-                                            <div class='ladi-box ladi-transition'></div>
+                                        <div id="HEADLINE316" class='ladi-element'>
+                                            <h5 class='ladi-headline ladi-transition'>Yến Tinh</h5>
                                         </div>
-                                        <div id="GROUP321" class='ladi-element'>
-                                            <div class='ladi-group'>
-                                                <div id="HEADLINE316" class='ladi-element'>
-                                                    <h5 class='ladi-headline ladi-transition'>Yến Tinh</h5>
-                                                </div>
-                                                <div id="LINE314" class='ladi-element'>
-                                                    <div class='ladi-line'>
-                                                        <div class="ladi-line-container"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="IMAGE315" class='ladi-element'>
-                                            <div class='ladi-image ladi-transition'>
-                                                <div class="ladi-image-background"></div>
+                                        <div id="LINE314" class='ladi-element'>
+                                            <div class='ladi-line'>
+                                                <div class="ladi-line-container"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div id="HEADLINE334" class='ladi-element'>
-                                    <h5 class='ladi-headline ladi-transition'>50g - 1800k <span
-                                            style="color: rgb(1, 80, 35);">|</span> 100g - 3300k</h5>
+                                <div id="IMAGE315" class='ladi-element'>
+                                    <div class='ladi-image ladi-transition'>
+                                        <div class="ladi-image-background"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -5147,69 +5570,53 @@
                 </div>
                 <div id="GROUP326" class='ladi-element'>
                     <div class='ladi-group'>
-                        <div id="GROUP328" class='ladi-element'>
+                        <div id="GROUP316" class='ladi-element'>
                             <div class='ladi-group'>
-                                <div id="GROUP316" class='ladi-element'>
-                                    <div class='ladi-group'>
-                                        <div id="BOX316" class='ladi-element'>
-                                            <div class='ladi-box ladi-transition'></div>
-                                        </div>
-                                        <div id="GROUP322" class='ladi-element'>
-                                            <div class='ladi-group'>
-                                                <div id="HEADLINE318" class='ladi-element'>
-                                                    <h5 class='ladi-headline ladi-transition'>Chân Yến</h5>
-                                                </div>
-                                                <div id="LINE316" class='ladi-element'>
-                                                    <div class='ladi-line'>
-                                                        <div class="ladi-line-container"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="IMAGE317" class='ladi-element'>
-                                            <div class='ladi-image ladi-transition'>
-                                                <div class="ladi-image-background"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="HEADLINE335" class='ladi-element'>
-                                    <h5 class='ladi-headline ladi-transition'>50g - 000k&nbsp;<span
-                                            style="color: rgb(1, 80, 35);">| </span>100g - 000k</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="GROUP324" class='ladi-element'>
-                    <div class='ladi-group'>
-                        <div id="GROUP59" class='ladi-element'>
-                            <div class='ladi-group'>
-                                <div id="BOX60" class='ladi-element'>
+                                <div id="BOX316" class='ladi-element'>
                                     <div class='ladi-box ladi-transition'></div>
                                 </div>
-                                <div id="GROUP320" class='ladi-element'>
+                                <div id="GROUP322" class='ladi-element'>
                                     <div class='ladi-group'>
-                                        <div id="HEADLINE61" class='ladi-element'>
-                                            <h5 class='ladi-headline ladi-transition'>Yến Thô</h5>
+                                        <div id="HEADLINE318" class='ladi-element'>
+                                            <h5 class='ladi-headline ladi-transition'>Chân Yến</h5>
                                         </div>
-                                        <div id="LINE62" class='ladi-element'>
+                                        <div id="LINE316" class='ladi-element'>
                                             <div class='ladi-line'>
                                                 <div class="ladi-line-container"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div id="IMAGE63" class='ladi-element'>
+                                <div id="IMAGE317" class='ladi-element'>
                                     <div class='ladi-image ladi-transition'>
                                         <div class="ladi-image-background"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="HEADLINE340" class='ladi-element'>
-                            <h5 class='ladi-headline ladi-transition'>50g - 1150k <span
-                                    style="color: rgb(1, 80, 35);">|</span> 100g - 2200k</h5>
+                    </div>
+                </div>
+                <div id="GROUP59" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="BOX60" class='ladi-element'>
+                            <div class='ladi-box ladi-transition'></div>
+                        </div>
+                        <div id="GROUP320" class='ladi-element'>
+                            <div class='ladi-group'>
+                                <div id="HEADLINE61" class='ladi-element'>
+                                    <h5 class='ladi-headline ladi-transition'>Yến Thô</h5>
+                                </div>
+                                <div id="LINE62" class='ladi-element'>
+                                    <div class='ladi-line'>
+                                        <div class="ladi-line-container"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="IMAGE63" class='ladi-element'>
+                            <div class='ladi-image ladi-transition'>
+                                <div class="ladi-image-background"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -5300,14 +5707,14 @@
                             <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg" width="100%"
                                     height="100%" preserveAspectRatio="none" viewBox="0 0 150.2 150"
                                     fill="rgba(235, 243, 255, 0.5)">
-                                    <use xlink:href="#shape_nOZEoePxQB"></use>
+                                    <use xlink:href="#shape_VxzbMkVVBo"></use>
                                 </svg></div>
                         </div>
                         <div id="SHAPE176" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg" width="100%"
                                     height="100%" preserveAspectRatio="none" viewBox="0 0 150.2 150"
                                     fill="rgba(235, 243, 255, 0.5)">
-                                    <use xlink:href="#shape_nOZEoePxQB"></use>
+                                    <use xlink:href="#shape_VxzbMkVVBo"></use>
                                 </svg></div>
                         </div>
                     </div>
@@ -5351,7 +5758,7 @@
                             <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg" width="100%"
                                     height="100%" preserveAspectRatio="none" viewBox="0 0 218 218"
                                     fill="rgba(236, 244, 255, 0.2)">
-                                    <use xlink:href="#shape_UfMRgpyHiM"></use>
+                                    <use xlink:href="#shape_DORttlhmIX"></use>
                                 </svg></div>
                         </div>
                         <div id="GROUP170" class='ladi-element'>
@@ -5360,14 +5767,14 @@
                                     <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg"
                                             width="100%" height="100%" preserveAspectRatio="none"
                                             viewBox="0 0 150.2 150" fill="rgba(235, 243, 255, 0.5)">
-                                            <use xlink:href="#shape_nOZEoePxQB"></use>
+                                            <use xlink:href="#shape_VxzbMkVVBo"></use>
                                         </svg></div>
                                 </div>
                                 <div id="SHAPE172" class='ladi-element'>
                                     <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg"
                                             width="100%" height="100%" preserveAspectRatio="none"
                                             viewBox="0 0 150.2 150" fill="rgba(235, 243, 255, 0.5)">
-                                            <use xlink:href="#shape_nOZEoePxQB"></use>
+                                            <use xlink:href="#shape_VxzbMkVVBo"></use>
                                         </svg></div>
                                 </div>
                             </div>
@@ -5380,15 +5787,216 @@
                                 </svg></div>
                         </div>
                     </div>
-                </div><a
-                    href="https://w.ladicdn.com/660631675fe8b70012719a6f/template-trang-tri-20240401075725-ahbcs.jpg"
-                    target="_blank" id="IMAGE327" class='ladi-element'>
+                </div>
+                <div id="PARAGRAPH201" class='ladi-element'>
+                    <div class='ladi-paragraph ladi-transition'>Đặt Yến Sào Phương Anh</div>
+                </div>
+                <div id="SHAPE180" class='ladi-element'>
+                    <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                            height="100%" preserveAspectRatio="none" viewBox="0 0 29.77 29.77"
+                            fill="rgba(0, 128, 55, 1)">
+                            <circle cx="14.89" cy="14.89" r="14.89"></circle>
+                        </svg></div>
+                </div>
+                <div id="IMAGE348" class='ladi-element'>
                     <div class='ladi-image'>
                         <div class="ladi-image-background"></div>
                     </div>
-                </a>
-                <div id="PARAGRAPH201" class='ladi-element'>
-                    <div class='ladi-paragraph ladi-transition'>Đặt Yến Sào Phương Anh</div>
+                </div>
+                <div id="IMAGE349" class='ladi-element'>
+                    <div class='ladi-image'>
+                        <div class="ladi-image-background"></div>
+                    </div>
+                </div>
+                <div id="IMAGE350" class='ladi-element'>
+                    <div class='ladi-image'>
+                        <div class="ladi-image-background"></div>
+                    </div>
+                </div>
+                <div id="IMAGE351" class='ladi-element'>
+                    <div class='ladi-image'>
+                        <div class="ladi-image-background"></div>
+                    </div>
+                </div>
+                <div id="GROUP341" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="GROUP347" class='ladi-element'>
+                            <div class='ladi-group'>
+                                <div id="GROUP348" class='ladi-element'>
+                                    <div class='ladi-group'>
+                                        <div id="GROUP332" class='ladi-element'>
+                                            <div class='ladi-group'>
+                                                <div id="GROUP329" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="BOX320" class='ladi-element'>
+                                                            <div class='ladi-box ladi-transition'></div>
+                                                        </div>
+                                                        <div id="BOX321" class='ladi-element'>
+                                                            <div class='ladi-box ladi-transition'></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="GROUP330" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="HEADLINE341" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>50g Yến Thô<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE342" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>1.150.<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE343" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>&nbsp;Tặng Đường, Táo, Nhíp<br>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="GROUP331" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="HEADLINE344" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>100g Yến Thô<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE345" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>2.200.<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE346" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>&nbsp;Tặng 500g Điều, Đường, Táo,
+                                                                Nhíp<br></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="HEADLINE359" class='ladi-element'>
+                                            <h3 class='ladi-headline'>000đ<br></h3>
+                                        </div>
+                                        <div id="HEADLINE360" class='ladi-element'>
+                                            <h3 class='ladi-headline'>000đ<br></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GROUP368" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="GROUP369" class='ladi-element'>
+                            <div class='ladi-group'>
+                                <div id="GROUP370" class='ladi-element'>
+                                    <div class='ladi-group'>
+                                        <div id="GROUP371" class='ladi-element'>
+                                            <div class='ladi-group'>
+                                                <div id="GROUP372" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="BOX334" class='ladi-element'>
+                                                            <div class='ladi-box ladi-transition'></div>
+                                                        </div>
+                                                        <div id="BOX335" class='ladi-element'>
+                                                            <div class='ladi-box ladi-transition'></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="GROUP373" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="HEADLINE393" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>50g Yến Tinh<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE394" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>1.800.<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE395" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>&nbsp;Tặng Đường, Táo, Nhíp<br>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="GROUP374" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="HEADLINE396" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>100g Yến Tinh<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE397" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>3.300.<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE398" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>&nbsp;Tặng 500g Điều, Đường, Táo,
+                                                                Nhíp<br></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="HEADLINE399" class='ladi-element'>
+                                            <h3 class='ladi-headline'>000đ<br></h3>
+                                        </div>
+                                        <div id="HEADLINE400" class='ladi-element'>
+                                            <h3 class='ladi-headline'>000đ<br></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GROUP375" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="GROUP376" class='ladi-element'>
+                            <div class='ladi-group'>
+                                <div id="GROUP377" class='ladi-element'>
+                                    <div class='ladi-group'>
+                                        <div id="GROUP378" class='ladi-element'>
+                                            <div class='ladi-group'>
+                                                <div id="GROUP379" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="BOX336" class='ladi-element'>
+                                                            <div class='ladi-box ladi-transition'></div>
+                                                        </div>
+                                                        <div id="BOX337" class='ladi-element'>
+                                                            <div class='ladi-box ladi-transition'></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="GROUP380" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="HEADLINE401" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>50g Chân Yến<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE402" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>1.450.<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE403" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>&nbsp;Tặng Đường, Táo, Nhíp<br>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="GROUP381" class='ladi-element'>
+                                                    <div class='ladi-group'>
+                                                        <div id="HEADLINE404" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>100g Chân Yến<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE405" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>2.800.<br></h3>
+                                                        </div>
+                                                        <div id="HEADLINE406" class='ladi-element'>
+                                                            <h3 class='ladi-headline'>&nbsp;Tặng 500g Điều, Đường, Táo,
+                                                                Nhíp<br></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="HEADLINE407" class='ladi-element'>
+                                            <h3 class='ladi-headline'>000đ<br></h3>
+                                        </div>
+                                        <div id="HEADLINE408" class='ladi-element'>
+                                            <h3 class='ladi-headline'>000đ<br></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="GROUP198" class='ladi-element'>
                     <div class='ladi-group'>
@@ -5400,12 +6008,10 @@
                                         <div class="ladi-image-background"></div>
                                     </div>
                                 </div>
-                                <div id="PARAGRAPH317" class='ladi-element'>
-                                    <div class='ladi-paragraph ladi-transition'>50g Yến Thô | Tặng Nhíp, Đường,
-                                        Táo<br>100g Yến Thô | Tặng 500g Điều, Nhíp, Đường, Táo<br><br>50g Yến Tinh |
-                                        Tặng Đường, Táo<br>100g Yến Tinh | Tằng 500g Điều, Đường, Táo<br>&nbsp;<br>50g
-                                        Chân Yến | Tặng Nhíp, Đường, Táo<br>100g Chân Yến | Tặng 500g Điều, Nhíp, Đường,
-                                        Táo<br></div>
+                                <div id="IMAGE352" class='ladi-element'>
+                                    <div class='ladi-image'>
+                                        <div class="ladi-image-background"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -5472,24 +6078,17 @@
                         </div>
                     </div>
                 </div>
-                <div id="SHAPE180" class='ladi-element'>
-                    <div class='ladi-shape ladi-transition'><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                            height="100%" preserveAspectRatio="none" viewBox="0 0 29.77 29.77"
-                            fill="rgba(0, 128, 55, 1)">
-                            <circle cx="14.89" cy="14.89" r="14.89"></circle>
-                        </svg></div>
+                <div id="IMAGE347" class='ladi-element'>
+                    <div class='ladi-image'>
+                        <div class="ladi-image-background"></div>
+                    </div>
                 </div>
-                <div id="IMAGE340" class='ladi-element'>
+                <div id="IMAGE354" class='ladi-element'>
                     <div class='ladi-image'>
                         <div class="ladi-image-background"></div>
                     </div>
                 </div>
                 <div id="IMAGE325" class='ladi-element'>
-                    <div class='ladi-image'>
-                        <div class="ladi-image-background"></div>
-                    </div>
-                </div>
-                <div id="IMAGE347" class='ladi-element'>
                     <div class='ladi-image'>
                         <div class="ladi-image-background"></div>
                     </div>
@@ -5990,9 +6589,9 @@
     </style>
     <script src="https://baekorea.com/ladipagev4.min.js" type="text/javascript"></script>
     <script id="script_event_data"
-        type="application/json">{"BUTTON8":{"a":"button","cs":[{"dr":"action","dw":"0769838383","a":"phone"}]},"IMAGE16":{"a":"image","F":"fadeIn","C":"2s"},"IMAGE18":{"a":"image","F":"slideInDown","C":"1s"},"BOX29":{"a":"box","F":"bounceIn","C":"3s"},"BOX32":{"a":"box","F":"bounceIn","C":"3s"},"BOX35":{"a":"box","F":"bounceIn","C":"3s"},"BOX38":{"a":"box","F":"bounceIn","C":"3s"},"PARAGRAPH41":{"a":"paragraph","F":"fadeInRight","C":"2s"},"GROUP42":{"a":"group","E":"flipInX","B":"2s"},"IMAGE46":{"a":"image","F":"fadeIn","C":"1s"},"HEADLINE47":{"a":"headline","F":"flipInX","C":"1s"},"HEADLINE53":{"a":"headline","F":"flipInX","C":"1s"},"PARAGRAPH54":{"a":"paragraph","F":"fadeInRight","C":"1s"},"GROUP59":{"a":"group","cs":[{"dr":"action"}]},"PARAGRAPH314":{"a":"paragraph","F":"fadeInRight","C":"1s"},"GROUP317":{"a":"group","B":"3s","A":"1s","F":"flipInX"},"GALLERY314":{"a":"gallery","ah":true,"ae":5},"IMAGE321":{"a":"image","F":"fadeInRight","C":"3s"},"IMAGE322":{"a":"image","F":"fadeInLeft","C":"1s"},"IMAGE325":{"a":"image","F":"fadeInLeft","C":"1s"},"IMAGE327":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://w.ladicdn.com/660631675fe8b70012719a6f/template-trang-tri-20240401075725-ahbcs.jpg","a":"link"}]},"FORM_ITEM224":{"a":"form_item","bS":"tel","bQ":3},"FORM_ITEM223":{"a":"form_item","bS":"email","bQ":2},"FORM_ITEM222":{"a":"form_item","bS":"text","bQ":1},"FORM219":{"a":"form","bP":"6607bc4891c9660012117e29","bM":true,"bK":"popup","bJ":"POPUP316","bA":true,"by":true,"bx":true},"FORM_ITEM315":{"a":"form_item","bS":"text","bQ":4},"FORM_ITEM316":{"a":"survey","aS":false,"aR":{"a":"select","dh":false,"de":[],"db":"products","da":true,"cY":"Chọn sản phẩm","cX":false,"cW":5,"cV":true,"cU":"vertical","cT":{"a":"default"},"cQ":[{"label":"50g Yến Thô","selected":false,"$$hashKey":"object:603360","ew":"2000000"},{"label":"100g Yến Thô","selected":false,"$$hashKey":"object:603570","ew":"2000000"},{"label":"50g Yến Tinh","selected":false,"$$hashKey":"object:603782","ew":"2000000"},{"label":"100g Yến Tinh","$$hashKey":"object:603995","ew":"2000000"},{"label":"50g Chân Yến","$$hashKey":"object:604208","ew":"2000000"},{"label":"100g Chân Yến","$$hashKey":"object:604421","ew":"2000000"}]},"aM":"products","aL":true},"IMAGE331":{"a":"image","F":"fadeInRight","C":"1s"},"POPUP316":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"IMAGE336":{"a":"image","F":"fadeInLeft","C":"3s"},"IMAGE338":{"a":"image","F":"fadeInUp","C":"1s"},"IMAGE339":{"a":"image","F":"fadeInLeft","C":"1s"},"IMAGE340":{"a":"image","F":"rotateIn","C":"3s"},"IMAGE341":{"a":"image","F":"rotateIn","C":"2s"},"IMAGE343":{"a":"image","F":"fadeInLeft","C":"4s"},"IMAGE344":{"a":"image","F":"fadeInRight","C":"2s"},"IMAGE342":{"a":"image","F":"fadeIn","C":"3s"},"IMAGE345":{"a":"image","F":"fadeInLeft","C":"3s"},"GROUP323":{"a":"group","F":"flash","C":"2s"},"IMAGE347":{"a":"image","F":"fadeInUp","C":"1s"},"PARAGRAPH317":{"a":"paragraph","F":"flipInX","C":"1s"}}</script>
+        type="application/json">{"BUTTON8":{"a":"button","cs":[{"dr":"action","dw":"0769838383","a":"phone"}]},"IMAGE16":{"a":"image","F":"fadeIn","C":"2s"},"IMAGE18":{"a":"image","F":"slideInDown","C":"1s"},"BOX29":{"a":"box","F":"bounceIn","C":"3s"},"BOX32":{"a":"box","F":"bounceIn","C":"3s"},"BOX35":{"a":"box","F":"bounceIn","C":"3s"},"BOX38":{"a":"box","F":"bounceIn","C":"3s"},"PARAGRAPH41":{"a":"paragraph","F":"fadeInRight","C":"2s"},"GROUP42":{"a":"group","E":"flipInX","B":"2s"},"IMAGE46":{"a":"image","F":"fadeIn","C":"1s"},"HEADLINE47":{"a":"headline","F":"flipInX","C":"1s"},"HEADLINE53":{"a":"headline","F":"flipInX","C":"1s"},"PARAGRAPH54":{"a":"paragraph","F":"fadeInRight","C":"1s"},"GROUP59":{"a":"group","cs":[{"dr":"action"}]},"PARAGRAPH314":{"a":"paragraph","F":"fadeInRight","C":"1s"},"GROUP317":{"a":"group","B":"3s","A":"1s","F":"flipInX"},"GALLERY314":{"a":"gallery","ah":true,"ae":5},"IMAGE321":{"a":"image","F":"fadeInRight","C":"3s"},"IMAGE322":{"a":"image","F":"fadeInLeft","C":"1s"},"IMAGE325":{"a":"image","F":"fadeInLeft","C":"1s"},"FORM_ITEM224":{"a":"form_item","bS":"tel","bQ":3},"FORM_ITEM223":{"a":"form_item","bS":"email","bQ":2},"FORM_ITEM222":{"a":"form_item","bS":"text","bQ":1},"FORM219":{"a":"form","bP":"6607bc4891c9660012117e29","bM":true,"bK":"popup","bJ":"POPUP316","bA":true,"by":true,"bx":true},"FORM_ITEM315":{"a":"form_item","bS":"text","bQ":4},"FORM_ITEM316":{"a":"survey","aS":false,"aR":{"a":"select","dh":false,"de":[],"db":"products","da":true,"cY":"Chọn sản phẩm","cX":false,"cW":5,"cV":true,"cU":"vertical","cT":{"a":"default"},"cQ":[{"label":"50g Yến Thô","selected":false,"$$hashKey":"object:603360","ew":"2000000"},{"label":"100g Yến Thô","selected":false,"$$hashKey":"object:603570","ew":"2000000"},{"label":"50g Yến Tinh","selected":false,"$$hashKey":"object:603782","ew":"2000000"},{"label":"100g Yến Tinh","$$hashKey":"object:603995","ew":"2000000"},{"label":"50g Chân Yến","$$hashKey":"object:604208","ew":"2000000"},{"label":"100g Chân Yến","$$hashKey":"object:604421","ew":"2000000"}]},"aM":"products","aL":true},"IMAGE331":{"a":"image","F":"fadeInRight","C":"1s"},"POPUP316":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"IMAGE336":{"a":"image","F":"fadeInLeft","C":"3s"},"IMAGE338":{"a":"image","F":"fadeInUp","C":"1s"},"IMAGE339":{"a":"image","F":"fadeInLeft","C":"1s"},"IMAGE341":{"a":"image","F":"rotateIn","C":"2s"},"IMAGE343":{"a":"image","F":"fadeInLeft","C":"4s"},"IMAGE344":{"a":"image","F":"fadeInRight","C":"2s"},"IMAGE342":{"a":"image","F":"fadeIn","C":"3s"},"IMAGE345":{"a":"image","F":"fadeInLeft","C":"3s"},"GROUP323":{"a":"group","F":"flash","C":"2s"},"IMAGE347":{"a":"image","F":"fadeInUp","C":"1s"},"IMAGE349":{"a":"image","F":"fadeInLeft","C":"1s"},"IMAGE350":{"a":"image","F":"fadeInLeft","C":"3s"},"IMAGE351":{"a":"image","F":"fadeInLeft","C":"2s"},"IMAGE354":{"a":"image","F":"fadeIn","C":"1s"},"GROUP341":{"a":"group","E":"flipInX","B":"1s"},"GROUP368":{"a":"group","E":"flipInX","B":"1s"},"GROUP375":{"a":"group","E":"flipInX","B":"1s"}}</script>
     <script id="script_ladipage_run"
-        type="text/javascript">(function () { var run = function () { if (typeof window.LadiPageScript == "undefined" || typeof window.ladi == "undefined" || window.ladi == undefined) { setTimeout(run, 100); return; } window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2(); window.LadiPageScript.runtime.ladipage_id = '660668ad91c9660012dcfe69'; window.LadiPageScript.runtime.publish_platform = 'LADIPAGEDNS'; window.LadiPageScript.runtime.version = '1711946649157'; window.LadiPageScript.runtime.cdn_url = 'https://w.ladicdn.com/v4/source/'; window.LadiPageScript.runtime.DOMAIN_SET_COOKIE = ["yensaophuonganh.com"]; window.LadiPageScript.runtime.DOMAIN_FREE = ["preview.ldp.page", "ldp.link", "ldp.page"]; window.LadiPageScript.runtime.bodyFontSize = 12; window.LadiPageScript.runtime.store_id = "660631675fe8b70012719a6f"; window.LadiPageScript.runtime.time_zone = 7; window.LadiPageScript.runtime.currency = "VND"; window.LadiPageScript.runtime.convert_replace_str = true; window.LadiPageScript.runtime.desktop_width = 960; window.LadiPageScript.runtime.mobile_width = 420; window.LadiPageScript.runtime.formdata = true; window.LadiPageScript.runtime.tracking_button_click = true; window.LadiPageScript.runtime.publish_time = 1711978115012; window.LadiPageScript.runtime.lang = "vi"; window.LadiPageScript.run(true); window.LadiPageScript.runEventScroll(); }; run(); })();</script>
+        type="text/javascript">(function () { var run = function () { if (typeof window.LadiPageScript == "undefined" || typeof window.ladi == "undefined" || window.ladi == undefined) { setTimeout(run, 100); return; } window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2(); window.LadiPageScript.runtime.ladipage_id = '660668ad91c9660012dcfe69'; window.LadiPageScript.runtime.publish_platform = 'LADIPAGEDNS'; window.LadiPageScript.runtime.version = '1712040331772'; window.LadiPageScript.runtime.cdn_url = 'https://w.ladicdn.com/v4/source/'; window.LadiPageScript.runtime.DOMAIN_SET_COOKIE = ["yensaophuonganh.com"]; window.LadiPageScript.runtime.DOMAIN_FREE = ["preview.ldp.page", "ldp.link", "ldp.page"]; window.LadiPageScript.runtime.bodyFontSize = 12; window.LadiPageScript.runtime.store_id = "660631675fe8b70012719a6f"; window.LadiPageScript.runtime.time_zone = 7; window.LadiPageScript.runtime.currency = "VND"; window.LadiPageScript.runtime.convert_replace_str = true; window.LadiPageScript.runtime.desktop_width = 960; window.LadiPageScript.runtime.mobile_width = 420; window.LadiPageScript.runtime.formdata = true; window.LadiPageScript.runtime.tracking_button_click = true; window.LadiPageScript.runtime.publish_time = 1712057156357; window.LadiPageScript.runtime.lang = "vi"; window.LadiPageScript.run(true); window.LadiPageScript.runEventScroll(); }; run(); })();</script>
 </body>
 
-</html><!--Publish time: Mon, 01 Apr 2024 13:28:35 GMT--><!--LadiPage build time: Mon, 01 Apr 2024 04:44:09 GMT-->
+</html><!--Publish time: Tue, 02 Apr 2024 11:25:56 GMT--><!--LadiPage build time: Tue, 02 Apr 2024 06:45:31 GMT-->
